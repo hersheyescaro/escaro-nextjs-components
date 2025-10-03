@@ -4,7 +4,7 @@ export default function ProfileCard() {
   return (
     <div className={styles.card}>
       <img 
-        src="/image/me.jpg" 
+        src="/image/chad.jpg" 
         alt="Profile" 
           style={{
           width: '150px',
@@ -15,11 +15,10 @@ export default function ProfileCard() {
   }}
         className={styles.image}
       />
-      <h2 className={styles.name}>HERSHEY JOY B. ESCARO</h2>
-      <p className={styles.age}>Age: 19 </p>
+      <h2 className={styles.name}>Chad Michael A. Dado</h2>
+      <p className={styles.age}>20 years old </p>
       <p className={styles.description}>
-        A designer and multimedia enthusiast who enjoys creating user interfaces, editing videos, and even experimenting with cooking. 
-        Always eager to grow, they strive to keep improving and sharing meaningful work.
+        I'm a good photographer and visual artist who loves capturing stories through images. Im also pretty good at cooking, where I get to be creative in a different way.
 
       </p>
     </div>

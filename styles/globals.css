@@ -6,35 +6,22 @@
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-  background: linear-gradient(135deg, #f8d7ff 0%, #e0c3fc 25%, #f8b5d6 50%, #dfc3ff 75%, #ffd1dc 100%);
+  background: linear-gradient(135deg, #847fea 0%, #251f99 25%, #3215b4 50%, #523ee8 75%, #330bd0 100%);
   min-height: 100vh;
-}
-
-@keyframes rainbow-pastel {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
 }
 
 h1, h2 {
   background: linear-gradient(
     90deg,
-    #ffb3ba,
-    #ffdfba,
-    #ffffba,
-    #baffc9,
-    #bae1ff,
-    #d4baff,
-    #ffb3ba
+    #000000,
+    #080511,
+    #1f0587,
+    #14229d,
+    #0d1317,
+    #060134,
+    #120e1d
   );
   background-size: 200% 200%;
-  animation: rainbow-pastel 3s ease infinite;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;

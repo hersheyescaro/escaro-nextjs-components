@@ -14,12 +14,12 @@
 
 .skillCircle {
   padding: 0.6rem 1.2rem;
-  border-radius: 50px;
-  background: linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%);
+  border-radius: 10px;
+  background: linear-gradient(135deg, #2922a5 0%, #8ec5fc 100%);
   font-weight: 500;
-  color: #fff;
+  color: #050242;
   font-size: 0.9rem;
-  box-shadow: 0 4px 10px rgba(142, 197, 252, 0.3);
+  box-shadow: 0 4px 10px rgba(11, 1, 48, 0.3);
   transition: all 0.3s ease;
 }
 

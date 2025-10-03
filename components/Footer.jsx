@@ -4,9 +4,9 @@ export default function Footer() {
       textAlign: 'center', 
       marginTop: '3rem',
       padding: '1rem',
-      color: '#666'
+      color: '#000000ff'
     }}>
-      <p>© 2025 Hershey Joy B. Escaro. All rights reserved.</p>
+      <p>© 2025 Chad Michael A. Dado. All rights reserved.</p>
     </footer>
   );
 }
