@@ -1,0 +1,29 @@
+.container {
+  max-width: 600px;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.skillsGrid {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.skillCircle {
+  padding: 0.6rem 1.2rem;
+  border-radius: 50px;
+  background: linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%);
+  font-weight: 500;
+  color: #fff;
+  font-size: 0.9rem;
+  box-shadow: 0 4px 10px rgba(142, 197, 252, 0.3);
+  transition: all 0.3s ease;
+}
+
+.skillCircle:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(142, 197, 252, 0.5);
+}
