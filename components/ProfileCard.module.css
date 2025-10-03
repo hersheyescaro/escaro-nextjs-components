@@ -1,5 +1,5 @@
 .card {
-  background: rgba(255, 167, 240, 0.95);
+  background: rgba(255, 128, 221, 0.95);
   padding: 2rem;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(177, 9, 121, 0.1);
@@ -7,7 +7,7 @@
   margin: 2rem auto;
   text-align: center;
   position: relative;
-  border: 3px solid transparent;
+  border: 10px solid transparent;
   background-clip: padding-box;
 }
 
@@ -27,24 +27,14 @@
     #ffafaf
   );
   background-size: 300% 300%;
-  animation: rainbow-border 3s linear infinite;
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
   z-index: -1;
 }
 
-@keyframes rainbow-border {
-  0% {
-    background-position: 0% 50%;
-  }
-  100% {
-    background-position: 300% 50%;
-  }
-}
-
 .image {
-  border-radius: 50%;
+  border-radius: 30%;
   margin-bottom: 1rem;
 }
 
