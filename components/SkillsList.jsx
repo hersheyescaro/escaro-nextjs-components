@@ -1,7 +1,7 @@
 import styles from './SkillsList.module.css';
 
 export default function SkillsList() {
-  const skills = ['skills media photographer', 'visual artist', 'cookery'];
+  const skills = ['Cooking', 'Front-End Designer', 'Multimedia Editor'];
 
   return (
     <div className={styles.container}>
