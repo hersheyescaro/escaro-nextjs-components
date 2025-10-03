@@ -16,7 +16,7 @@ export default function ProfileCard() {
         className={styles.image}
       />
       <h2 className={styles.name}>HERSHEY JOY B. ESCARO</h2>
-      <p className={styles.age}>Age: 19 </p>
+      <p className={styles.age}>My Age: 19 </p>
       <p className={styles.description}>
         A designer and multimedia enthusiast who enjoys creating user interfaces, editing videos, and even experimenting with cooking. 
         Always eager to grow, they strive to keep improving and sharing meaningful work.
